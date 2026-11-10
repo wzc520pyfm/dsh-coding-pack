@@ -1,5 +1,5 @@
 {
-  "name": "dsh-coding-workbench-pack",
+  "name": "dsh-coding-pack",
   "version": "0.1.0",
   "description": "DSH Web installer plugin: a categorized coding workbench pack with pinned community plugins. Display name: Coding Workbench Pack / 编程工作台开箱包.",
   "type": "module",
@@ -36,11 +36,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wzc520pyfm/dsh-coding-workbench-pack.git"
+    "url": "git+https://github.com/wzc520pyfm/dsh-coding-pack.git"
   },
-  "homepage": "https://github.com/wzc520pyfm/dsh-coding-workbench-pack#readme",
+  "homepage": "https://github.com/wzc520pyfm/dsh-coding-pack#readme",
   "bugs": {
-    "url": "https://github.com/wzc520pyfm/dsh-coding-workbench-pack/issues"
+    "url": "https://github.com/wzc520pyfm/dsh-coding-pack/issues"
   },
   "license": "MIT",
   "keywords": [

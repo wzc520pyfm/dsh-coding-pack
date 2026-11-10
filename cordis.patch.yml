@@ -1,4 +1,4 @@
 # Register the Coding Workbench Pack installer in the active DSH profile.
 - insert:
-    - id: dsh-coding-workbench-pack
-      name: dsh-coding-workbench-pack
+    - id: dsh-coding-pack
+      name: dsh-coding-pack

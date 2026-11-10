@@ -26,7 +26,7 @@ const client = await esbuild.build({
 
 const code = client.outputFiles[0]?.text ?? ''
 writeFileSync('lib/client.js', `window.__ModuleLoader__.load({
-  id: "dsh-coding-workbench-pack",
+  id: "dsh-coding-pack",
   factory: (require) => {
     var module = { exports: {} };
     var exports = module.exports;

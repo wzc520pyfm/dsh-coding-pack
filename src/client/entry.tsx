@@ -28,7 +28,7 @@ export function apply(ctx: ClientContext): void {
       label: () => translate(currentLocale(ctx), 'nav'),
     }, () => <WorkbenchPage />),
   )
-  if (ctx.effect) ctx.effect(register, 'dsh-coding-workbench-pack: settings')
+  if (ctx.effect) ctx.effect(register, 'dsh-coding-pack: settings')
   else register()
 }
 

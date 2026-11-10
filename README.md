@@ -8,7 +8,7 @@ dsh plugin --profile web add <pinned-target>
 
 Display name: **Coding Workbench Pack** / 编程工作台开箱包.
 
-Package / repository / plugin id: `dsh-coding-workbench-pack` (the name does not include “Codex”).
+Package / repository / plugin id: `dsh-coding-pack` (the name does not include “Codex”).
 
 This pack is **not published to npm** in v0.1. Install it from the GitHub repository or a Draft PR branch. Official built-in capabilities are explained or prompted for enablement; they are never installed as if they were community plugins.
 
@@ -19,13 +19,13 @@ This pack is **not published to npm** in v0.1. Install it from the GitHub reposi
 From the GitHub repository (replace the ref if you are testing a PR branch):
 
 ```sh
-dsh plugin --profile web add github:wzc520pyfm/dsh-coding-workbench-pack#feat/v0.1-installer
+dsh plugin --profile web add github:wzc520pyfm/dsh-coding-pack#feat/v0.1-installer
 ```
 
 From a local checkout:
 
 ```sh
-dsh plugin --profile web add link:/path/to/dsh-coding-workbench-pack
+dsh plugin --profile web add link:/path/to/dsh-coding-pack
 ```
 
 Restart `dsh web` after installing this pack. Then open **Settings → Coding Workbench**, or run `/coding-workbench`.
@@ -33,7 +33,7 @@ Restart `dsh web` after installing this pack. Then open **Settings → Coding Wo
 Uninstall only this pack (child plugins are left in place):
 
 ```sh
-dsh plugin --profile web remove dsh-coding-workbench-pack
+dsh plugin --profile web remove dsh-coding-pack
 ```
 
 ## How the installer works
@@ -161,7 +161,7 @@ MIT. Child plugins keep their own licenses (for example `dsh-context` and `@time
 **安装本包（尚未发布到 npm，请从 GitHub / PR 分支安装）：**
 
 ```sh
-dsh plugin --profile web add github:wzc520pyfm/dsh-coding-workbench-pack#feat/v0.1-installer
+dsh plugin --profile web add github:wzc520pyfm/dsh-coding-pack#feat/v0.1-installer
 ```
 
 安装后重启 `dsh web`，打开 **设置 → 编程工作台**，或运行 `/coding-workbench`。
@@ -169,7 +169,7 @@ dsh plugin --profile web add github:wzc520pyfm/dsh-coding-workbench-pack#feat/v0
 **卸载本包（不会卸载已装上的子插件）：**
 
 ```sh
-dsh plugin --profile web remove dsh-coding-workbench-pack
+dsh plugin --profile web remove dsh-coding-pack
 ```
 
 已装且版本不低于钉定版则跳过并标成 Installed；已装但低于钉定版**不会自动升级**。同类社区插件只能选一个。`dsh-better-sidebar` 必须按宿主线钉版本（0.2.2-rc.1+ 用 0.30.1，0.2.1 线用 0.28.2），禁止 `@latest`；读不到宿主版本时请手动选线。

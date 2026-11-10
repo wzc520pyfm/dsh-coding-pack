@@ -43,8 +43,8 @@ export function apply(ctx: HostContext): void {
     })
   }
   if (ctx.effect) {
-    ctx.effect(registerRoutes, 'dsh-coding-workbench-pack: routes')
-    ctx.effect(registerCommand, 'dsh-coding-workbench-pack: command')
+    ctx.effect(registerRoutes, 'dsh-coding-pack: routes')
+    ctx.effect(registerCommand, 'dsh-coding-pack: command')
   } else {
     registerRoutes()
     registerCommand()

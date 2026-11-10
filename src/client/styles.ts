@@ -1,4 +1,4 @@
-const STYLE_ID = 'dsh-coding-workbench-pack-styles'
+const STYLE_ID = 'dsh-coding-pack-styles'
 
 export function ensureStyles(): void {
   if (typeof document === 'undefined' || document.getElementById(STYLE_ID)) return
